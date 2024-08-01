@@ -15,7 +15,7 @@ exchange = {
 }
 
 
-# Funcion para obtener el total en pesos argentinos | Function to obtain the total in Argentine pesos
+# Funcion para obtener el total en pesos argentinos
 def get_total_ars():
     try:
         # Division entre el monto ingresado y ambos tipos de dolar para obtener el valor total y redondear los decimales
