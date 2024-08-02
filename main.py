@@ -64,7 +64,7 @@ def get_usd_rate():
 
 
     except Exception as error:
-        print(f'Error al obtener obtener la cotizacion actual: {error}')
+        print(f'Error al obtener la cotizacion actual: {error}')
         sys.exit(1)
 
 
