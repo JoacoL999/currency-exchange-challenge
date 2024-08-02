@@ -63,8 +63,9 @@ def get_usd_rate():
          return get_total_other()
 
 
-    except Exception as error:
-        print(f'Error al obtener la cotizacion actual: {error}')
+    except Exception:
+
+        print('No se encontro el tipo de moneda indicado.')
         sys.exit(1)
 
 
