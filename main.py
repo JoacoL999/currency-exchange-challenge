@@ -37,6 +37,7 @@ def get_total_other():
         # Multiplicacion entre el monto ingresado y el tipo de cambio a dolar para luego redondear en 2 decimales
         exchange['total'] = round(exchange['amount'] * exchange['rate'], 2)
         print(f"COTIZACION DOLAR: {exchange['currency']} {round(1 / exchange['rate'], 2):.2f}")
+        print(f"Monto recibido: {exchange['currency']}$ {exchange['amount']:.2f}")
         print(f"Monto a dolar: USD$ {exchange['total']:.2f}")
     except Exception as error:
         print(f'Error en el proceso de conversion: {error}')
