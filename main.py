@@ -3,7 +3,7 @@ import sys
 # Modulo para realizar las request HTTP
 import requests 
 
-# URL para obtener el tipo de tipo de cambio entre una moneda y un dolar
+# URL para obtener el tipo de cambio entre una moneda y un dolar
 base_url = "https://api.wise.com/v1/rates?" 
 # URL utilizada para segmentar el valor del peso argentino en dolar oficial y blue
 base_url_ars = "https://api.bluelytics.com.ar/v2/latest"
